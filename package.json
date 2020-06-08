@@ -1,10 +1,6 @@
 {
 	"name": "babel-preset-foxxo",
 	"version": "0.1.0",
-	"scripts": {
-		"np": "np"
-	},
-	"files": [],
 	"main": "index.js",
 	"dependencies": {
 		"@babel/plugin-proposal-class-properties": "^7.10.1",
@@ -23,7 +19,6 @@
 		"@babel/preset-typescript": "^7.10.1"
 	},
 	"devDependencies": {
-		"@babel/core": "^7.10.2",
-		"np": "^6.2.4"
+		"@babel/core": "^7.10.2"
 	}
 }
