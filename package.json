@@ -1,7 +1,10 @@
 {
 	"name": "@fox-land/babel-preset",
 	"version": "0.5.0",
-	"main": "index.js",
+	"main": "lib",
+	"files": [
+		"lib"
+	],
 	"engines": {
 		"node": ">=14.0.0"
 	},
