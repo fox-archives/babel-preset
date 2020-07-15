@@ -3,7 +3,7 @@ const r = require.resolve.bind(null);
 module.exports = () => ({
 	presets: [
 		[
-			r("@babel/env"),
+			r("@babel/preset-env"),
 			{
 				bugfixes: true,
 				spec: true,
@@ -13,7 +13,7 @@ module.exports = () => ({
 			},
 		],
 		[
-			r("@babel/typescrpt"),
+			r("@babel/preset-typescrpt"),
 			{
 				allowNamespaces: true,
 				allowDeclareFields: true,
