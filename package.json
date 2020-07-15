@@ -5,6 +5,9 @@
 	"engines": {
 		"node": ">=14.0.0"
 	},
+	"scripts": {
+		"test": "jest"
+	},
 	"keywords": [
 		"babel",
 		"babel-preset",
@@ -40,7 +43,8 @@
 		"@babel/preset-typescript": "^7.10.1"
 	},
 	"devDependencies": {
-		"@babel/core": "^7.10.2"
+		"@babel/core": "^7.10.2",
+		"jest": "^26.1.0"
 	},
 	"peerDependencies": {
 		"@babel/core": "^7.10.2 || ^8.0.0"
